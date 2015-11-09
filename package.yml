@@ -1,0 +1,28 @@
+name       : gnome-documents
+version    : 3.18.1
+release    : 1
+source     :
+    - https://download.gnome.org/sources/gnome-documents/3.18/gnome-documents-3.18.1.tar.xz : a2184e34de6fb243d39cdcb83473831fc79a651ece3fcf9264f0faf40e08c477
+license    : GPL-2.0
+summary    : Documents Manager for GNOME
+description: |
+    Documents Manager for GNOME
+builddeps  :
+    - pkgconfig(evince-view-3.0)
+    - pkgconfig(gjs-1.0)
+    - pkgconfig(gnome-desktop-3.0)
+    - pkgconfig(goa-1.0)
+    - pkgconfig(gobject-introspection-1.0)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libgdata)
+    - pkgconfig(librsvg-2.0)
+    - pkgconfig(tracker-control-1.0)
+    - pkgconfig(webkit2gtk-4.0)
+    - pkgconfig(zapojit-0.0)
+    - itstool
+setup      : |
+    %configure --disable-static --enable-documentation=no
+build      : |
+    %make
+install    : |
+    %make_install
