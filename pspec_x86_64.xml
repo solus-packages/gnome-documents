@@ -17,6 +17,9 @@
         <Description xml:lang="en">Documents Manager for GNOME
 </Description>
         <PartOf>desktop.gnome</PartOf>
+        <RuntimeDependencies>
+            <Dependency>tracker</Dependency>
+        </RuntimeDependencies>
         <Files>
             <Path fileType="data">/usr/share/dbus-1</Path>
             <Path fileType="data">/usr/share/appdata</Path>
@@ -32,7 +35,7 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
+        <Update release="2">
             <Date>2015-11-09</Date>
             <Version>3.18.1</Version>
             <Comment>Packaging update</Comment>

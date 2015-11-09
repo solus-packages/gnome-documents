@@ -1,6 +1,6 @@
 name       : gnome-documents
 version    : 3.18.1
-release    : 1
+release    : 2
 source     :
     - https://download.gnome.org/sources/gnome-documents/3.18/gnome-documents-3.18.1.tar.xz : a2184e34de6fb243d39cdcb83473831fc79a651ece3fcf9264f0faf40e08c477
 license    : GPL-2.0
@@ -20,6 +20,8 @@ builddeps  :
     - pkgconfig(webkit2gtk-4.0)
     - pkgconfig(zapojit-0.0)
     - itstool
+rundeps:
+    - tracker
 setup      : |
     %configure --disable-static --enable-documentation=no
 build      : |
