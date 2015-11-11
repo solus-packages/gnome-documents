@@ -1,8 +1,8 @@
 name       : gnome-documents
-version    : 3.18.1
-release    : 2
+version    : 3.18.2
+release    : 3
 source     :
-    - https://download.gnome.org/sources/gnome-documents/3.18/gnome-documents-3.18.1.tar.xz : a2184e34de6fb243d39cdcb83473831fc79a651ece3fcf9264f0faf40e08c477
+    - https://download.gnome.org/sources/gnome-documents/3.18/gnome-documents-3.18.2.tar.xz : 850ddaf3366549bbe0696c2ec3a36faf16438b387b8e9cb7812c7d5266a74cd4
 license    : GPL-2.0
 summary    : Documents Manager for GNOME
 description: |
