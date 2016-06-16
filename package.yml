@@ -1,10 +1,10 @@
 name       : gnome-documents
 version    : 3.18.3
-release    : 5
+release    : 6
 source     :
     - https://download.gnome.org/sources/gnome-documents/3.18/gnome-documents-3.18.3.tar.xz : 16a50d509d43009d58b44b5f6d4d92e155a55dcb22bd8e0fdfd63b8d2ab48b91
 license    : GPL-2.0
-component  : desktop.gnome
+component  : office
 summary    : Documents Manager for GNOME
 description: |
     Documents Manager for GNOME
