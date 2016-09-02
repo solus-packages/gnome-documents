@@ -1,8 +1,8 @@
 name       : gnome-documents
-version    : 3.20.0
-release    : 7
+version    : 3.20.1
+release    : 8
 source     :
-    - https://download.gnome.org/sources/gnome-documents/3.20/gnome-documents-3.20.0.tar.xz : a5fa496c5e80eccb8d2e5bba7f4d7dc4cc6c9f53d5bc028402428771be1237d2
+    - https://download.gnome.org/sources/gnome-documents/3.20/gnome-documents-3.20.1.tar.xz : c73810ded97431360ba80c127d3244b1e6e416643fba0ba96411d22729211394
 license    : GPL-2.0
 component  : office
 summary    : Documents Manager for GNOME
