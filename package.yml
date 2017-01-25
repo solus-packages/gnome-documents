@@ -1,8 +1,8 @@
 name       : gnome-documents
-version    : 3.20.1
-release    : 9
+version    : 3.22.0
+release    : 10
 source     :
-    - https://download.gnome.org/sources/gnome-documents/3.20/gnome-documents-3.20.1.tar.xz : c73810ded97431360ba80c127d3244b1e6e416643fba0ba96411d22729211394
+    - http://ftp.gnome.org/pub/gnome/sources/gnome-documents/3.22/gnome-documents-3.22.0.tar.xz : edf5cd6b7b7f5847217b60885358030598e551010087d2a9d1765ae6777041ad
 license    : GPL-2.0
 component  : office
 summary    : Documents Manager for GNOME
@@ -16,6 +16,7 @@ builddeps  :
     - pkgconfig(gobject-introspection-1.0)
     - pkgconfig(gtk+-3.0)
     - pkgconfig(libgdata)
+    - pkgconfig(libgepub)
     - pkgconfig(librsvg-2.0)
     - pkgconfig(tracker-control-1.0)
     - pkgconfig(webkit2gtk-4.0)
