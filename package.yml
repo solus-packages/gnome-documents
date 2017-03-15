@@ -1,8 +1,8 @@
 name       : gnome-documents
-version    : 3.22.0
-release    : 11
+version    : 3.22.1
+release    : 12
 source     :
-    - http://ftp.gnome.org/pub/gnome/sources/gnome-documents/3.22/gnome-documents-3.22.0.tar.xz : edf5cd6b7b7f5847217b60885358030598e551010087d2a9d1765ae6777041ad
+    - http://ftp.gnome.org/pub/gnome/sources/gnome-documents/3.22/gnome-documents-3.22.1.tar.xz : 3879f1f31c3339cd69355945b4cf217e25dc6ed9cc7577d25d0353e0a1b8e8cb
 license    : GPL-2.0
 component  : office
 summary    : Documents Manager for GNOME
