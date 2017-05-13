@@ -1,8 +1,8 @@
 name       : gnome-documents
-version    : 3.24.1
-release    : 15
+version    : 3.24.2
+release    : 16
 source     :
-    - https://download.gnome.org/sources/gnome-documents/3.24/gnome-documents-3.24.1.tar.xz : a34d1366a7fa86458ca8a9fb76adcbb6ad0f609fa2458adab60b066f1b03c57e
+    - https://download.gnome.org/sources/gnome-documents/3.24/gnome-documents-3.24.2.tar.xz : 513a7640967cf94a2233da5e38b3bdc6b71c89b84727dded8dc3f6ce13b35130
 license    : GPL-2.0
 component  : office
 summary    : Documents Manager for GNOME
@@ -24,7 +24,9 @@ builddeps  :
     - itstool
 rundeps    :
     - gjs
+    - libgdata
     - libgepub
+    - libzapojit
     - tracker
 setup      : |
     %configure --disable-static --enable-documentation=no
