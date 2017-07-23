@@ -1,8 +1,8 @@
 name       : gnome-documents
-version    : 3.24.2
-release    : 16
+version    : 3.24.3
+release    : 17
 source     :
-    - https://download.gnome.org/sources/gnome-documents/3.24/gnome-documents-3.24.2.tar.xz : 513a7640967cf94a2233da5e38b3bdc6b71c89b84727dded8dc3f6ce13b35130
+    - https://download.gnome.org/sources/gnome-documents/3.24/gnome-documents-3.24.3.tar.xz : c2f920fe1696499ba2594c9ab3328e7f18fa8f60df0273aaad503bbe27eeb9a0
 license    : GPL-2.0
 component  : office
 summary    : Documents Manager for GNOME
