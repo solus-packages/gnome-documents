@@ -2,8 +2,8 @@
     <Source>
         <Name>gnome-documents</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>office</PartOf>
@@ -365,6 +365,21 @@
             <Path fileType="doc">/usr/share/help/pa/gnome-documents/view-add.page</Path>
             <Path fileType="doc">/usr/share/help/pa/gnome-documents/view.page</Path>
             <Path fileType="doc">/usr/share/help/pa/gnome-documents/viewgrid.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/collections.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/filter.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/formats.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/index.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/info.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/media/go-down.png</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/media/icon_gnome-documents.png</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/print.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/prob-no-show.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/prob-previews.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/search.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/view-add.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/view.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-documents/viewgrid.page</Path>
             <Path fileType="doc">/usr/share/help/pt_BR/gnome-documents/collections.page</Path>
             <Path fileType="doc">/usr/share/help/pt_BR/gnome-documents/filter.page</Path>
             <Path fileType="doc">/usr/share/help/pt_BR/gnome-documents/formats.page</Path>
@@ -535,12 +550,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="17">
-            <Date>2017-07-23</Date>
-            <Version>3.24.3</Version>
+        <Update release="18">
+            <Date>2017-10-08</Date>
+            <Version>3.26.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
