@@ -1,8 +1,8 @@
 name       : gnome-documents
-version    : 3.26.2
-release    : 20
+version    : 3.28.0
+release    : 21
 source     :
-    - https://download.gnome.org/sources/gnome-documents/3.26/gnome-documents-3.26.2.tar.xz : 24c794718329bc2d0ccd303461941de4ebe30da95b495dead615c3ba2bb8eb60
+    - https://download.gnome.org/sources/gnome-documents/3.28/gnome-documents-3.28.0.tar.xz : 0a320e9713c2ebbf345f9865e19ba7a4e56ecc144da3bdd74000c8345f2a989c
 license    : GPL-2.0
 component  : office
 summary    : Documents Manager for GNOME
@@ -16,11 +16,12 @@ builddeps  :
     - pkgconfig(gobject-introspection-1.0)
     - pkgconfig(gtk+-3.0)
     - pkgconfig(libgdata)
-    - pkgconfig(libgepub)
+    - pkgconfig(libgepub-0.6)
     - pkgconfig(librsvg-2.0)
     - pkgconfig(tracker-control-2.0)
     - pkgconfig(webkit2gtk-4.0)
     - pkgconfig(zapojit-0.0)
+    - desktop-file-utils
     - itstool
 rundeps    :
     - gjs
@@ -29,10 +30,10 @@ rundeps    :
     - libzapojit
     - tracker
 setup      : |
-    %configure --disable-static --enable-documentation=no
+    %meson_configure -Ddocumentation=false
 build      : |
-    %make
+    %ninja_build
 install    : |
-    %make_install
+    %ninja_install
     sed -i 's/GNOME;GTK;Utility;Core;/Office;/g' $installdir/usr/share/applications/org.gnome.Books.desktop
     sed -i 's/GNOME;GTK;Utility;Core;/Office;/g' $installdir/usr/share/applications/org.gnome.Documents.desktop
