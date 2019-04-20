@@ -10,7 +10,7 @@
         <Summary xml:lang="en">Documents Manager for GNOME</Summary>
         <Description xml:lang="en">Documents Manager for GNOME
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>gnome-documents</Name>
@@ -19,24 +19,17 @@
 </Description>
         <PartOf>office</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin/gnome-books</Path>
             <Path fileType="executable">/usr/bin/gnome-documents</Path>
             <Path fileType="library">/usr/lib64/gnome-documents/girepository-1.0/Gd-1.0.typelib</Path>
             <Path fileType="library">/usr/lib64/gnome-documents/girepository-1.0/GdPrivate-1.0.typelib</Path>
             <Path fileType="library">/usr/lib64/gnome-documents/libgd.so</Path>
             <Path fileType="library">/usr/lib64/gnome-documents/libgdprivate-1.0.so</Path>
-            <Path fileType="data">/usr/share/applications/org.gnome.Books.desktop</Path>
             <Path fileType="data">/usr/share/applications/org.gnome.Documents.desktop</Path>
-            <Path fileType="data">/usr/share/dbus-1/services/org.gnome.Books.service</Path>
             <Path fileType="data">/usr/share/dbus-1/services/org.gnome.Documents.service</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.Documents.enums.xml</Path>
-            <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.books.gschema.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.documents.gschema.xml</Path>
             <Path fileType="data">/usr/share/gnome-documents/gir-1.0/Gd-1.0.gir</Path>
             <Path fileType="data">/usr/share/gnome-documents/gir-1.0/GdPrivate-1.0.gir</Path>
-            <Path fileType="data">/usr/share/gnome-documents/org.gnome.Books</Path>
-            <Path fileType="data">/usr/share/gnome-documents/org.gnome.Books.data.gresource</Path>
-            <Path fileType="data">/usr/share/gnome-documents/org.gnome.Books.src.gresource</Path>
             <Path fileType="data">/usr/share/gnome-documents/org.gnome.Documents</Path>
             <Path fileType="data">/usr/share/gnome-documents/org.gnome.Documents.data.gresource</Path>
             <Path fileType="data">/usr/share/gnome-documents/org.gnome.Documents.src.gresource</Path>
@@ -536,22 +529,8 @@
             <Path fileType="doc">/usr/share/help/zh_CN/gnome-documents/view-add.page</Path>
             <Path fileType="doc">/usr/share/help/zh_CN/gnome-documents/view.page</Path>
             <Path fileType="doc">/usr/share/help/zh_CN/gnome-documents/viewgrid.page</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/org.gnome.Books.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/org.gnome.Documents.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/22x22/apps/org.gnome.Books.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/22x22/apps/org.gnome.Documents.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/org.gnome.Books.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/org.gnome.Documents.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/org.gnome.Books.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/org.gnome.Documents.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/org.gnome.Books.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/org.gnome.Documents.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/org.gnome.Books.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/org.gnome.Documents.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/512x512/apps/org.gnome.Books.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/512x512/apps/org.gnome.Documents.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/org.gnome.Books-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/org.gnome.Documents-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/org.gnome.Documents.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/org.gnome.Documents-symbolic.svg</Path>
             <Path fileType="localedata">/usr/share/locale/af/LC_MESSAGES/gnome-documents.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/gnome-documents.mo</Path>
             <Path fileType="localedata">/usr/share/locale/as/LC_MESSAGES/gnome-documents.mo</Path>
@@ -622,14 +601,13 @@
             <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/gnome-documents.mo</Path>
             <Path fileType="localedata">/usr/share/locale/zh_HK/LC_MESSAGES/gnome-documents.mo</Path>
             <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/gnome-documents.mo</Path>
-            <Path fileType="data">/usr/share/metainfo/org.gnome.Books.appdata.xml</Path>
             <Path fileType="data">/usr/share/metainfo/org.gnome.Documents.appdata.xml</Path>
         </Files>
     </Package>
     <History>
-        <Update release="23">
-            <Date>2018-08-17</Date>
-            <Version>3.28.2</Version>
+        <Update release="24">
+            <Date>2019-04-20</Date>
+            <Version>3.32.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
